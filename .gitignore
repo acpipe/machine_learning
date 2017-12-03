@@ -20,7 +20,6 @@ AlexDemo.java
 #diff file
 diff*
 *.diff
-*.txt
 
 
 .classpath
