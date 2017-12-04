@@ -149,7 +149,7 @@ def create_dt(raw_data_set, features):
 def main():
     data_set, features = load_data()
     dt = create_dt(data_set, features)
-    print(dt)
+    # print(dt)
 
 
 if __name__ == '__main__':
