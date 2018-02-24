@@ -126,6 +126,7 @@ def create_dt(raw_data_set, features):
     if labels.count(labels[0]) == len(labels):
         return labels[0]
 
+
     # 没有特征进行划分,进行多数表决.
     if len(features) == 0:
         return majority_vote(labels)
